@@ -8,7 +8,7 @@ body {
 
 .banner {
     height: 500px;
-    background-image: url("img/fondo-1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/fondo-1.jpg");
     background-size: cover;
     background-position: center;
 
@@ -16,6 +16,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 
 ul.menu {
   list-style-type: none;
@@ -37,10 +38,20 @@ ul li a:hover {
   background-color: #111111;
 }
 
+.descripcion {
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 h1 {
-  font-size: 2.5em;
+  font-size: 3.0em;
   margin-bottom: 0.5em;
   text-align: center;
+  color: white;
+  margin-bottom: 50px;
 }
 h2 {
   font-size: 2em;
@@ -49,6 +60,7 @@ h2 {
 h3 {
   font-size: 1.75em;
   margin-bottom: 0.5em;
+  text-align: center;
 }
 
 h4 {
