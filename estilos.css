@@ -6,6 +6,17 @@ body {
   line-height: 1.7;
 }
 
+.banner {
+    height: 500px;
+    background-image: url("img/fondo-1.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 ul.menu {
   list-style-type: none;
   margin: 0;
@@ -29,6 +40,7 @@ ul li a:hover {
 h1 {
   font-size: 2.5em;
   margin-bottom: 0.5em;
+  text-align: center;
 }
 h2 {
   font-size: 2em;
@@ -50,9 +62,3 @@ footer {
     text-align: center;
     
 }
-
-h1#bienvenida-titulo{
-  text-align: center;
-                        
-
-        }
