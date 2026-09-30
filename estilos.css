@@ -50,3 +50,85 @@ footer {
     text-align: center;
     
 }
+
+
+   /* IMÁGENES, TABLAS Y FORMULARIOS */
+
+/* Estilos de imágenes y fotos del sitio */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 1rem 0;
+}
+
+article img {
+  max-height: 380px;
+  object-fit: cover;
+}
+
+/* Estilos de tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+thead {
+  background-color: #333;
+  color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f7fafc;
+}
+
+/* Estilos de formularios */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 600px;
+  margin: 1rem 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #cbd5e0;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button, 
+input[type="submit"] {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover, 
+input[type="submit"]:hover {
+  background-color: #111111;
+}
