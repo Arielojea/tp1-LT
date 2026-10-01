@@ -25,6 +25,9 @@ ul.menu {
   display: flex;
   background-color: #333;
   flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 ul li a {
