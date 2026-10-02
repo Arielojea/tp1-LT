@@ -6,12 +6,26 @@ body {
   line-height: 1.7;
 }
 
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+}
+
+header nav > a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 .banner {
-    height: 500px;
+    height: 650px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/fondo-1.jpg");
     background-size: cover;
     background-position: center;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,11 +37,7 @@ ul.menu {
   margin: 0;
   padding: 0;
   display: flex;
-  background-color: #333;
   flex-wrap: wrap;
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 
 ul li a {
@@ -48,6 +58,26 @@ ul li a:hover {
     max-width: 800px;
     margin: 0 auto;
 }
+
+.boton {
+    text-align: center;
+    width: 180px;
+    margin: 50px auto 0;
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+
+}
+.boton:hover {
+    background-color: #111111
+  
+}
+  .boton a {
+    text-decoration: none;
+    color: white;
+  }
+ 
 
 h1 {
   font-size: 3.0em;
