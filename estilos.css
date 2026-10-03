@@ -100,6 +100,28 @@ h4 {
   font-size: 1.5em;
   margin-bottom: 0.5em;
 }
+/* Tabla */
+
+table {
+    width: 70%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+thead {
+    background-color: #333;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eeeeee;
+}
 /* Footer */
 
 footer {
