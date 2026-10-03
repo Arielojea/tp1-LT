@@ -51,6 +51,7 @@ ul li a:hover {
   background-color: #111111;
 }
 
+/*index.html*/
 .descripcion {
     color: white;
     text-align: center;
@@ -73,7 +74,7 @@ ul li a:hover {
     background-color: #111111
   
 }
-  .boton a {
+.boton a {
     text-decoration: none;
     color: white;
   }
@@ -100,7 +101,7 @@ h4 {
   font-size: 1.5em;
   margin-bottom: 0.5em;
 }
-/* Tabla */
+/* Tabla * ciudad.html */
 
 table {
     width: 70%;
