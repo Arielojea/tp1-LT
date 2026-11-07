@@ -300,6 +300,12 @@ h4 {
 .lugares {
   max-width: 1000px;
   margin: 0 auto;
+
+  
+}
+.img-fluid {
+  border-radius: 10px;
+  
 }
 /* =========================
    Eventos destacados - index.html
