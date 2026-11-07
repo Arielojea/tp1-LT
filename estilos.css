@@ -1,4 +1,3 @@
-
 /* =========================
    Reset
    ========================= */
@@ -24,6 +23,7 @@ body {
   font-size: 3.5em;
   text-shadow: 2px 2px 5px #000;
 }
+
 
 /* =========================
    Header
@@ -75,6 +75,7 @@ ul li a:hover {
 /* =========================
    Main
    ========================= */
+
 .lugares ul {
     display: flex;
     justify-content: center;
@@ -82,6 +83,7 @@ ul li a:hover {
     list-style: none;
     padding: 0;
 }
+
 .lugares li {
   background-color: #eeeeee;
   padding: 25px;
@@ -95,6 +97,7 @@ ul li a:hover {
     background-color: #ddd;
     transition: 0.3s; 
 }
+
 main {
   margin: 0;
   padding: 0;
@@ -115,19 +118,15 @@ main > aside {
 
 .banner {
   height: 650px;
-
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ), url("img/fondo-1.jpg");
-
   background-size: cover;
   background-position: center;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   margin: 0; 
   padding: 20px;
 }
@@ -182,20 +181,16 @@ main > aside {
 
 .hero {
   height: 620px;
-
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.7)
   ), url("https://cdn.discordapp.com/attachments/1503613729084805192/1555798428418838568/image.png?backend=b2&ex=6ac1d5b2&is=6ac08432&hm=b671c6a2fcf766316a76d685aeba6079d0da9c3bbddacbd7c7beaededb256cd9&");
-
   background-size: cover;
   background-position: center;
-
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
   margin: 0;
   padding: 20px;
 }
@@ -300,13 +295,13 @@ h4 {
 .lugares {
   max-width: 1000px;
   margin: 0 auto;
-
-  
 }
+
 .img-fluid {
   border-radius: 10px;
-  
 }
+
+
 /* =========================
    Eventos destacados - index.html
    ========================= */
@@ -323,47 +318,9 @@ h4 {
 
 
 /* =========================
-   Tabla - ciudad.html
+   Imágenes, Tablas y Formularios
    ========================= */
 
-table {
-  width: 70%;
-  margin: 0 auto;
-  border-collapse: collapse;
-}
-
-th,
-td {
-  border: 1px solid #333;
-  padding: 10px;
-}
-
-thead {
-  background-color: #333;
-  color: white;
-}
-
-tbody tr:nth-child(even) {
-  background-color: #eeeeee;
-}
-
-
-/* =========================
-   Footer
-   ========================= */
-
-footer {
-<<<<<<< HEAD
-    background-color: #333;
-    color: white;
-    text-align: center;
-    
-}
-
-
-   /* IMÁGENES, TABLAS Y FORMULARIOS */
-
-/* Estilos de imágenes y fotos del sitio */
 img {
   max-width: 100%;
   height: auto;
@@ -377,7 +334,6 @@ article img {
   object-fit: cover;
 }
 
-/* Estilos de tablas */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -399,7 +355,6 @@ tbody tr:nth-child(even) {
   background-color: #f7fafc;
 }
 
-/* Estilos de formularios */
 form {
   display: flex;
   flex-direction: column;
@@ -441,7 +396,13 @@ button:hover,
 input[type="submit"]:hover {
   background-color: #111111;
 }
-=======
+
+
+/* =========================
+   Footer
+   ========================= */
+
+footer {
   background-color: #333;
   color: white;
   text-align: center;
@@ -452,5 +413,3 @@ input[type="submit"]:hover {
 footer p {
   margin: 0;
 }
-
->>>>>>> e541014bf6d0bde456fe395e2434ef96d10e1eb5
