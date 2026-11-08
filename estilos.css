@@ -186,7 +186,7 @@ main > aside {
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.7)
-  ), url("https://cdn.discordapp.com/attachments/1503613729084805192/1555798428418838568/image.png?backend=b2&ex=6ac1d5b2&is=6ac08432&hm=b671c6a2fcf766316a76d685aeba6079d0da9c3bbddacbd7c7beaededb256cd9&");
+  ), url("img/cabildo.png");
 
   background-size: cover;
   background-position: center;
