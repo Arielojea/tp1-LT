@@ -13,17 +13,27 @@
 </head>
 
 <body>
-
     <header>
-        <nav aria-label="Navegación principal">
-            <a href="index.html">Córdoba</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" aria-label="Navegación principal">
+            <div class="container-fluid">
+                <!-- Navbar Brand / Logo -->
+                <a class="navbar-brand" href="index.html">Córdoba</a>
 
-            <ul class="menu">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="ciudad.html">Ciudad</a></li>
-                <li><a href="lugares.html">Lugares</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
+                <!-- Botón Hamburguesa para celulares -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Links del menú colapsables -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="ciudad.html">Ciudad</a></li>
+                        <li class="nav-item"><a class="nav-link" href="lugares.html">Lugares</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -55,8 +65,8 @@
     <h2 >Barrios y zonas de Córdoba</h2>
     <div class="container">
      <article class="card">
-        <img src="img/Nueva cordoba.png
-        " alt="Imagen de Nueva Córdoba">
+        <img src="img/Nueva cordoba.png"
+         alt="Imagen de Nueva Córdoba">
         <h3>Nueva Córdoba</h3>
         <p>
         Es el <strong>epicentro estudiantil y juvenil</strong>. Destaca por su ritmo frenético, 
@@ -65,8 +75,8 @@
         </p>
     </article>
     <article class="card">
-        <img src="img/Iglesia-Catedral-10.png
-        " alt="Imagen de Centro">
+        <img src="img/Iglesia-Catedral-10.png"
+         alt="Imagen de Centro">
         <h3>Centro</h3>
         <p>
             El <strong>Centro</strong> de la ciudad de Córdoba es el más antiguo e histórico de dicha ciudad. 
@@ -78,7 +88,8 @@
     </article >
 
     <article class="card">
-        <img src="img/general paz.png" alt="Imagen de General Paz">
+        <img src="img/general paz.png"
+         alt="Imagen de General Paz">
         <h3>General Paz</h3>
         <p>
            Es el <strong>polo gastronómico y familiar</strong>. Ofrece un ambiente mucho más tranquilo y arbolado, 
