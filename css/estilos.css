@@ -121,7 +121,7 @@ main > aside {
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
-  ), url("img/fondo-1.jpg");
+  ), url("/img/fondo-1.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -184,7 +184,7 @@ main > aside {
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.7)
-  ), url("img/cabildo.png");
+  ), url("/img/cordoba-og.png");
   background-size: cover;
   background-position: center;
   display: flex;
