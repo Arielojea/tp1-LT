@@ -445,3 +445,12 @@ body.oscuro h4 {
 body.oscuro li {
     color: #1a1a1a;
 }
+
+body.oscuro .card h3 {
+    color: #222;
+}
+
+body.oscuro .costumbres ul li {
+    color: #f5f5f5;
+}
+
