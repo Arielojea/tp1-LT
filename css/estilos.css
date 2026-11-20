@@ -443,3 +443,12 @@ body.oscuro .lugares .btn-outline-dark:hover {
     background-color: #fff;
     color: #000;
 }
+body.oscuro .card {
+    background-color: #2b2b2b;
+    border-color: #444;
+}
+
+body.oscuro .card .card-title,
+body.oscuro .card .card-text {
+    color: #f5f5f5;
+   }
