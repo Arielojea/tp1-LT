@@ -434,3 +434,12 @@ body.oscuro .costumbres ul li {
     color: #f5f5f5;
 }
 
+body.oscuro .lugares .btn-outline-dark {
+    color: #fff;
+    border-color: #fff;
+}
+
+body.oscuro .lugares .btn-outline-dark:hover {
+    background-color: #fff;
+    color: #000;
+}
