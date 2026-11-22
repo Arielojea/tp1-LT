@@ -18,6 +18,12 @@ body {
   font-size: 16px;
   line-height: 1.7;
 }
+body.contacto {
+  padding-top: 70px;
+}
+body.contacto h1 {
+  color: #000;
+}
 
 #titulo-principal {
   font-size: 3.5em;
@@ -346,12 +352,16 @@ tbody tr:nth-child(even) {
   background-color: #f7fafc;
 }
 
+/* =========================
+   Formulario de contacto
+   ========================= */
+
 form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   max-width: 600px;
-  margin: 1rem 0;
+  margin: 1rem auto;
 }
 
 input[type="text"],
@@ -387,6 +397,8 @@ button:hover,
 input[type="submit"]:hover {
   background-color: #111111;
 }
+.error { color: red; }
+.ok { color: green; }
 
 
 /* =========================
@@ -452,3 +464,18 @@ body.oscuro .card .card-title,
 body.oscuro .card .card-text {
     color: #f5f5f5;
    }
+/* =========================
+   Contacto
+   ========================= */
+body.oscuro.contacto h1 {
+  color: #f5f5f5; 
+}
+body.oscuro aside .btn-outline-dark {
+    color: #fff;
+    border-color: #fff;
+}
+
+body.oscuro aside .btn-outline-dark:hover {
+    background-color: #fff;
+    color: #000;
+}
