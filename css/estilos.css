@@ -14,7 +14,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
-  padding: 0;
+  padding-top: 0;
   font-size: 16px;
   line-height: 1.7;
 }
@@ -39,7 +39,7 @@ header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color:#000;
   position: fixed;
   top: 0;
   left: 0;
@@ -86,10 +86,10 @@ ul li a:hover {
 
 main {
   margin: 0;
-  padding: 0;
+  padding-top: 0px;
 }
 
-main > section:not(.banner):not(.hero),
+main > section:not(.banner):not(.hero):not(.hero-lugares),
 main > aside {
   max-width: 1200px;
   margin-left: auto;
@@ -197,10 +197,155 @@ main > aside {
   margin: 0 auto;
 }
 
+/* =========================
+   Hero - lugares.html
+   ========================= */
+
+.hero-lugares {
+  min-height: 520px;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0.55)
+  ), url("../img/sierras-de-cordoba.jpg"); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 85px 20px 50px; 
+}
+
+.hero-lugares-contenido {
+  max-width: 850px;
+  color: #ffffff;
+}
+
+.hero-lugares h1 {
+  color: #ffffff;
+  font-size: 3em;
+  margin: 0 0 15px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.hero-lugares h2 {
+  color: #f5f5f5;
+  font-size: 1.5em;
+  font-weight: 500;
+  margin: 0 0 20px;
+}
+
+.hero-lugares p {
+  color: #ffffff;
+  font-size: 1.1em;
+  line-height: 1.7;
+  margin: 0 auto 25px;
+}
+
+.btn-hero-lugares {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #ffffff;
+  text-decoration: none;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.btn-hero-lugares:hover {
+  background-color: #ffffff;
+  color: #111111;
+}
 
 /* =========================
-   Contenedores y tarjetas
+   Estilos de tarjetas - lugares.html
    ========================= */
+
+body {
+  background-color: #f4f6f8; 
+}
+
+.tarjeta-lugar {
+  background-color: #ffffff;
+  border: 1px solid #e0e4e8;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+body.oscuro .tarjeta-lugar {
+  background-color: #262626;
+  border-color: #3d3d3d;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+#atractivos-principales {
+  background-color: #9bdaba;
+  border-radius: 14px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+body.oscuro #atractivos-principales {
+  background-color: #202020;
+}
+
+/* =========================
+   Secciones desplegables - lugares.html
+   ========================= */
+
+   .desplegable-seccion {
+    background-color: #ffffff;
+    border: 1px solid #d8dee4;
+    border-radius: 12px;
+    padding: 18px 22px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+   }
+
+.desplegable-seccion summary {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #333333;
+  cursor: pointer;
+}
+
+.desplegable-seccion dl,
+.desplegable-seccion ol {
+  margin-top: 16px;
+  margin-bottom: 4px;
+  padding-left: 20px;
+}
+
+.desplegable-seccion dt {
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.desplegable-seccion dd {
+  margin-left: 0;
+  margin-bottom: 6px;
+}
+
+.desplegable-seccion ol li {
+  margin-bottom: 8px;
+}
+
+/* Modo oscuro */
+body.oscuro .desplegable-seccion {
+  background-color: #262626;
+  border-color: #3d3d3d;
+  color: #f5f5f5;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
+body.oscuro .desplegable-seccion summary,
+body.oscuro .desplegable-seccion ol li {
+  color: #f5f5f5;
+}
+
+
+
 
 
 /* =========================
@@ -260,28 +405,29 @@ main > aside {
 
 h1 {
   font-size: 3em;
-  margin-bottom: 50px;
+  margin-top: 8px;
+  margin-bottom: 45px;
   text-align: center;
-  color: white;
+  color: #111111;
 }
 
 h2 {
   font-size: 2em;
   margin-bottom: 0.5em;
-  color: #333;
+  color: #333333;
 }
 
 h3 {
   font-size: 1.75em;
   margin-bottom: 0.5em;
   text-align: center;
-  color: #333;
+  color: #333333;
 }
 
 h4 {
   font-size: 1.5em;
   margin-bottom: 0.5em;
-  color: #333;
+  color: #333333;
 }
 
 
@@ -420,6 +566,12 @@ footer p {
 /* ====================
 Modo oscuro 
 =================*/
+
+body.oscuro header nav {
+    background-color: #1a1a1a !important; /* Pasa a negro/gris oscuro al activar el modo oscuro */
+    border-bottom: 2px solid #333 !important; /* Una línea divisoria sutil */
+}
+
 body.oscuro {
     background-color: #1a1a1a;
     color: #f5f5f5;
